@@ -1,0 +1,65 @@
+#app{
+    text-align: center;
+}
+
+.main {
+    border: 3px solid black;
+    padding: 5px;
+    display: inline-block;
+    margin: 20px;   
+
+}
+
+.main div{
+   margin:0;
+   padding:0;
+   height: 50px;
+   margin: 1px; 
+}
+
+.main img{
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+}
+.blocked{
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 5px solid black;
+}
+.game_zone{
+    display: flex;
+
+}
+.a{
+    width: 20%;
+}
+.score {
+    
+    padding: 5px;
+    display: inline-block;
+    margin: 20px;  
+    height: 30%;     
+   width: 45%;
+   font-family: 'Goldman', cursive;
+   font-size: 32px;
+}
+.info{
+    border: 3px solid black;
+    padding: 5px;
+    margin: 20px;  
+    height: 30%;     
+   width: 30%;
+   font-family: 'Goldman', cursive;
+   font-size: 32px;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin: 20px;
+   }
+ .quetion {
+    margin: 20px;
+ }

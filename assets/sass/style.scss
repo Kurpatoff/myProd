@@ -1,0 +1,43 @@
+// (c) UniCSS, http://unicss.maxsite.com.ua/
+
+// variables for colors google design (colors-gmd.html)
+@import 'unicss/colors-gmd';
+
+// UniCSS variables
+@import 'variables';
+
+@import 'unicss/normalize';
+@import 'unicss/resets';
+@import 'unicss/block';
+@import 'unicss/border';
+@import 'unicss/flex';
+@import 'unicss/height';
+@import 'unicss/icons';
+@import 'unicss/layout';
+@import 'unicss/links';
+@import 'unicss/padding-margin';
+@import 'unicss/position';
+@import 'unicss/rounded';
+@import 'unicss/text';
+@import 'unicss/visible';
+@import 'unicss/width';
+
+@import 'fonts/fontawesome';
+
+@import 'main/fonts';
+@import 'main/base';
+@import 'main/blocks';
+@import 'main/forms';
+@import 'main/gradients';
+@import 'main/images';
+@import 'main/lines';
+@import 'main/lists';
+@import 'main/shadow';
+@import 'main/table';
+@import 'main/transition';
+@import 'main/other';
+
+@import 'unicss/colors'; // ! for maximum priority
+
+@import 'main/print';
+@import 'main/my-template';
